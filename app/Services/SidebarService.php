@@ -9,6 +9,14 @@ class SidebarService implements SidebarServiceInterface
     {
         return [
             [
+                'type' => 'menu_item',
+                'title' => 'Products',
+                'route' => 'products.index',
+                'route_params' => [],
+                'icon' => 'easyadmin::icons.users',
+                'show' => true
+            ],
+            [
 
                 'type' => 'menu_group',
                 'title' => 'Access Control',
